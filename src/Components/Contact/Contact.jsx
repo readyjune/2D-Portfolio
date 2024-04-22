@@ -38,13 +38,13 @@ const Contact = () => {
   return (
     <div className='contact'>
         <div className="contact-col">
-            <h3>Send us message <img src={msg_icon} alt="" /></h3>
+            <h3>Send me a message <img src={msg_icon} alt="" /></h3>
             <p>
                 Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.
             </p>
             <ul>
                 <li><img src={mail_icon} alt="" />rlawlsdn3314@gmail.com</li>
-                <li><img src={phone_icon} alt="" />+62 439-245-945</li>
+                <li><img src={phone_icon} alt="" />+61 439-245-945</li>
                 <li><img src={location_icon} alt="" />Perth, Western Australia</li>
             </ul>
         </div>
@@ -54,7 +54,7 @@ const Contact = () => {
                 <input type="text" name='name' placeholder='Enter your name' required/>
                 <label>Phone Number</label>
                 <input type="tel" name='phone' placeholder='Enter your mobile number' required/>
-                <label>Write ytour messages here</label>
+                <label>Write your messages here</label>
                 <textarea name="message" rows="6" placeholder='Enter your message' required></textarea>
                 <button type='submit' className='btn dark-btn'>Submit now <img src={white_arrow} alt="" /></button>
             </form>

@@ -27,7 +27,7 @@ const App = () => {
         <Campus/>
         {/* <Title subTitle='Achievements' title='Awards'/>
         <Testimonials/> */}
-        <Title subTitle='Contact Me' title='"Submit" button will actually send to my email!'/>
+        <Title subTitle='Contact Me' title='Click submit to send me an email'/>
         <Contact/>
         <Footer/>
       </div>
