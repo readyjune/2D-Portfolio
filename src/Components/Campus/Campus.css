@@ -1,0 +1,69 @@
+.campus{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+    position: relative;
+}
+
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+
+
+
+.gallery img {
+    width: 40%; /* Or any other percentage according to design */
+    height: auto; /* Auto height to maintain the natural image height */
+    aspect-ratio: 16 / 9; /* Ensures the aspect ratio is 16:9 */
+    border-radius: 10px;
+    margin-right: 1.5%;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.campus-next-btn, .campus-back-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 15px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #212EA0;
+    z-index: 2; /* Ensure the buttons are above the images */
+}
+
+.campus-next-btn {
+    right: 0;
+}
+
+.campus-back-btn {
+    left: 0;
+}
+
+/* Adjust the gallery so it doesn't extend under the buttons */
+.gallery {
+    padding: 0 60px; /* Add padding to prevent images from being underneath the buttons */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    /* ... other styles ... */
+}
+
+
+
+
+
+/* media query */
+
+@media (max-width: 800px) {
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery img{
+        width: 48%;
+        margin-bottom: 10px;
+    }
+}
