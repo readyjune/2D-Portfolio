@@ -18,7 +18,7 @@ const About = ({setPlayState}) => {
         </div>
         <div className="about-right">
             <h3>ABOUT ME</h3>
-            <h2>Emi boyfriend</h2>
+            <h2>Jinwoo Kim</h2>
             <p>Software engineer with expertise in developing mobile and web applications, employing a variety of technologies  </p>
             <p>including Flutter, SwiftUI, Java, and React. Proven ability to leverage AWS for data visualisation and deliver innovative </p>
             <p> solutions through agile project management. Excels in translating complex requirements into user-friendly software. </p>
